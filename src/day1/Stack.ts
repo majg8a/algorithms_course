@@ -33,7 +33,6 @@ export default class Stack<T> {
 
         const head = this.head as Node<T>;
         this.head = this.head?.prev;
-
         return head.value;
     }
 
